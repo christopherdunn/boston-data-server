@@ -6,7 +6,11 @@ Food Inspections
 Crime Incident Reports - 2023 to Present
 Checkbook Explorer FY25
 
+# Instructions:
+npm run build
+npm start
 
+# Interaction
 Building Permits: Works best when asking about specific address say 137 Newbury ST
 
 Food Inspections: Work best if you can use the restaurant name and zip code. 
@@ -14,3 +18,4 @@ Food Inspections: Work best if you can use the restaurant name and zip code.
 Crime Incident Reports: You can use Street name and year to filter. 
 
 Checkbook Explorer FY25: search by vendor name or Department
+
