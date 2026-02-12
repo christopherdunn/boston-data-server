@@ -303,7 +303,7 @@ server.tool(
     }
 
     // Format all fields for each record
-    const formatted = records.map((r: any) =>
+    const formatted = records.slice(0, 200).map((r: any) =>
       Object.entries(r)
         .map(([k, v]) => `${k}: ${v}`)
         .join('\n')
